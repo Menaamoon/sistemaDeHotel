@@ -1,0 +1,93 @@
+
+:root {
+    --color-fondo: #f0f4f8;
+    --color-principal: #6c63ff;
+    --color-secundario: #d5c6e0;
+    --color-acento: #ffe082;
+    --color-texto: #333333;
+    --color-texto-secundario: #757575;
+}
+
+body {
+    background-color: var(--color-fondo);
+    font-family: 'Arial', sans-serif;
+    color: var(--color-texto);
+}
+
+
+.card {
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: var(--color-principal);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 10px 10px 0 0;
+    padding: 1rem;
+}
+
+.card-body {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0 0 10px 10px;
+}
+
+.card-footer {
+    background-color: var(--color-secundario);
+    padding: 1rem;
+    border-radius: 0 0 10px 10px;
+}
+
+.card-footer p {
+    color: var(--color-texto-secundario);
+    font-size: 1rem;
+}
+
+
+.form-label {
+    font-weight: 600;
+    color: var(--color-texto);
+}
+
+.form-control {
+    border-radius: 8px;
+    border: 1px solid #d1d8e0;
+    padding: 1rem;
+    margin-top: 0.5rem;
+}
+
+.form-control:focus {
+    border-color: var(--color-principal);
+    box-shadow: 0 0 0 0.2rem rgba(108, 99, 255, 0.25);
+}
+
+
+.btn-primary {
+    background-color: var(--color-principal);
+    border-color: var(--color-principal);
+    color: white;
+    font-weight: bold;
+    padding: 0.75rem;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #5348e0;
+    border-color: #5348e0;
+}
+
+
+a {
+    color: var(--color-principal);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-acento);
+    text-decoration: underline;
+}

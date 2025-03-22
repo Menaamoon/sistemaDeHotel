@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+.hero {
+    background: url('imagenes/fondo.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   padding: 20px 50px;
+
+}
+
+
+
+.logo img {
+    height: 400px;
+    margin-right: 10px;
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 18px;
+
+}
+
+
+.buscador {
+    display: flex;
+    background: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.buscador input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 20px;
+    width: 300px;
+}
+
+.buscador button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
